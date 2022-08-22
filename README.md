@@ -2,7 +2,7 @@
 
 This repository includes below topics:
 
-**1) Initialization**
+**1) [Initialization](https://github.com/Zahra-Bakhtiari/Improving-Deep-Neural-Networks-Hyperparameter-Tuning-Regularization-and-Optimization/blob/main/Initialization.ipynb)**
 
 Training your neural network requires specifying an initial value of the weights. A well-chosen initialization method helps the learning process.
 In the [Initialization](https://github.com/Zahra-Bakhtiari/Improving-Deep-Neural-Networks-Hyperparameter-Tuning-Regularization-and-Optimization/blob/main/Initialization.ipynb) notebook, I tried out a few different initializations, including random, zeros, and He initialization, and see how each leads to different results.
@@ -14,7 +14,7 @@ A well-chosen initialization can:
     c) Avoid vanishing/exploding gradients, which also slows down the optimization algorithm. 
 
 
-**2) Regularization (L2 Regularization and Dropout)**
+**2) [Regularization (L2 Regularization and Dropout)](https://github.com/Zahra-Bakhtiari/Improving-Deep-Neural-Networks-Hyperparameter-Tuning-Regularization-and-Optimization/blob/main/Regularization.ipynb)**
 
 Deep Learning models have so much flexibility and capacity that overfitting can be a serious problem, if the training dataset is not big enough. Sure it does well on the training set, but the learned network doesn't generalize to new examples that it has never seen!
 In the [Regularization](https://github.com/Zahra-Bakhtiari/Improving-Deep-Neural-Networks-Hyperparameter-Tuning-Regularization-and-Optimization/blob/main/Regularization.ipynb) notebook, L2 Regularization and Dropout are being implemented as methods to reduce chance of overfitting occurance. 
