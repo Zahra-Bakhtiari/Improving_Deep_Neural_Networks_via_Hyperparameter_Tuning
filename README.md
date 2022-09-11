@@ -26,7 +26,7 @@ In the [Regularization](https://github.com/Zahra-Bakhtiari/Improving-Deep-Neural
 Finally, dropout is a widely used regularization technique that is specific to deep learning. It randomly shuts down some neurons in each iteration. When you shut some neurons down, you actually modify your model. The idea behind drop-out is that at each iteration, you train a different model that uses only a subset of your neurons. With dropout, your neurons thus become less sensitive to the activation of one other specific neuron, because that other neuron might be shut down at any time. A common mistake when using dropout is to use it both in training and testing. You should use dropout (randomly eliminate nodes) only in training. 
 
     
-**3)
+**3) [Gradient Checking](https://github.com/Zahra-Bakhtiari/Improving-Deep-Neural-Networks-Hyperparameter-Tuning-Regularization-and-Optimization/blob/main/Gradient_Checking.ipynb)
 
 Gradient checking is a method to give us reassurance that backpropagation is actually working. 4 - 1-Dimensional Gradient Checking
 Consider a 1D linear function 𝐽(𝜃)=𝜃𝑥. The model contains only a single real-valued parameter 𝜃, and takes 𝑥 as input. You will implement code to compute 𝐽(.) and its derivative ∂𝐽/∂𝜃. You will then use gradient checking to make sure your derivative computation for 𝐽 is correct. 
