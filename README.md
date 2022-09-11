@@ -1,4 +1,4 @@
-# Improving-Deep-Neural-Networks-Hyperparameter-Tuning-Regularization-and-Optimization
+# Improving Deep Neural Networks Hyperparameter Tuning (Regularization and Optimization)
 
 This repository includes below topics:
 
