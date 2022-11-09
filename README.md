@@ -32,4 +32,9 @@ Gradient checking is a method to give us reassurance that backpropagation is act
 
 Note that gradient checking is slow! Approximating the gradient with ∂𝐽∂𝜃≈𝐽(𝜃+𝜀)−𝐽(𝜃−𝜀)/2𝜀 is computationally costly. For this reason, we don't run gradient checking at every iteration during training. Just a few times to check if the gradient is correct. Gradient Checking, at least as we've presented it, doesn't work with dropout. We would usually run the gradient check algorithm without dropout to make sure our backprop is correct, then add dropout.
 
+**4) [Optimization Methods](https://github.com/Zahra-Bakhtiari/Improving_Deep_Neural_Networks_via_Hyperparameter_Tuning/blob/main/Optimization_methods.ipynb)
+
+Gradient Descent is the most common method to update the parameters and minimize the cost. In this notebook, some more advanced optimization methods that can speed up learning and perhaps even get a better final value for the cost function will be introduced. Having a good optimization algorithm can be the difference between waiting days vs. just a few hours to get a good result. New optimization methods include  (Stochastic) Gradient Descent, Momentum, RMSProp and Adam. We also use random minibatches to accelerate convergence and improve optimization.
+
+
 
